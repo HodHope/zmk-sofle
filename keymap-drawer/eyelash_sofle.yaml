@@ -52,7 +52,7 @@ layers:
   - M
   - {t: ',', s: <}
   - .
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: /, s: '?'}
   - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
