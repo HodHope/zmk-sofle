@@ -55,10 +55,10 @@
 
         layer_1 {
             bindings = <
-&kp LA(LC(NUMBER_2))  &kp F1           &kp F2          &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp F6           &kp F7           &kp F8           &kp F9  &kp F10            &trans
-&kp AT                &kp GRAVE        &mkp LCLK       &mkp MCLK        &mkp RCLK        &mkp MB4           &mmv MOVE_DOWN   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &trans  &kp MINUS          &kp UNDER
-&trans                &kp TILDE        &trans          &trans           &trans           &mkp MB5           &mmv MOVE_LEFT   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &trans  &kp RIGHT_BRACKET  &kp APOSTROPHE
-&trans                &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &trans  &kp F12            &trans
+&kp LA(LC(NUMBER_2))  &kp F1           &kp F2          &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp F6           &kp F7           &kp F8           &kp F9  &kp F10           &trans
+&kp AT                &kp GRAVE        &mkp LCLK       &mkp MCLK        &mkp RCLK        &mkp MB4           &mmv MOVE_DOWN   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &trans  &kp MINUS         &kp LS(MINUS)
+&trans                &kp TILDE        &trans          &trans           &trans           &mkp MB5           &mmv MOVE_LEFT   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&trans                &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &trans  &kp F12           &trans
 &kp C_MUTE            &trans           &trans          &trans           &trans           &trans             &mkp LCLK        &trans           &trans           &trans           &trans  &trans
             >;
 
@@ -69,7 +69,7 @@
         layer_2 {
             bindings = <
 &trans      &rgb_ug RGB_TOG  &trans        &trans        &trans  &trans    &mmv MOVE_UP     &kp F6  &kp F7  &kp F8      &kp F9     &kp F10      &trans
-&bt BT_CLR  &bt BT_SEL 0     &bt BT_SEL 1  &bt BT_SEL 2  &trans  &trans    &mmv MOVE_DOWN   &trans  &trans  &kp F11     &kp F12    &kp UNDER    &kp PLUS
+&bt BT_CLR  &bt BT_SEL 0     &bt BT_SEL 1  &bt BT_SEL 2  &trans  &trans    &mmv MOVE_DOWN   &trans  &trans  &kp F11     &kp F12    &kp UNDER    &kp APOS
 &trans      &trans           &trans        &trans        &trans  &trans    &mmv MOVE_LEFT   &trans  &trans  &trans      &trans     &kp LBRC     &kp RBRC
 &trans      &trans           &trans        &trans        &trans  &trans    &mmv MOVE_RIGHT  &trans  &trans  &sys_reset  &soft_off  &bootloader  &trans
 &trans      &trans           &trans        &trans        &trans  &trans    &mkp LCLK        &trans  &trans  &trans      &trans     &trans
