@@ -91,7 +91,7 @@ layers:
   - KP 9
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '-', s: _}
-  - _
+  - {t: Sft+-, s: Sft+_}
   - {t: '$$mdi:transfer$$', type: trans}
   - '~'
   - {t: '$$mdi:transfer$$', type: trans}
@@ -103,8 +103,8 @@ layers:
   - KP 5
   - KP 6
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '[', s: '{'}
   - {t: ']', s: '}'}
-  - {t: '''', s: '"'}
   - {t: '$$mdi:transfer$$', type: trans}
   - RGB OFF
   - RGB ON
@@ -156,7 +156,7 @@ layers:
   - F11
   - F12
   - _
-  - +
+  - {t: '''', s: '"'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
